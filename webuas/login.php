@@ -35,7 +35,7 @@ if (isset($_POST["login"])) {
     <h1>Log In</h1>
 
     <?php if (isset($error)) : ?>
-        <p style="color: red; font_style: italic;">username/password salah</p>
+        <p style="color: red; font_style: italic;">wrong username/password</p>
     <?php endif; ?>
 
     <form action="" method="post">
